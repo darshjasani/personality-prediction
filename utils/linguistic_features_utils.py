@@ -90,7 +90,7 @@ def load_features(dir, dataset):
 
 def get_psycholinguist_data(dump_data, dataset, feature_flags):
     features = load_features(
-        "../data/" + dataset + "/psycholinguist_features/", dataset
+        "data/" + dataset + "/psycholinguist_features/", dataset
     )
 
     first = 1
